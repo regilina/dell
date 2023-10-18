@@ -8,6 +8,13 @@
   .header__navigation, .header__signal, .header__favorites {
     display: none;
   }
+  .header__search {
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  .header__toolbar {
+    margin-left: 0;
+  }
 }
 @media (min-width: 1920px) {
   .header__burger-menu {

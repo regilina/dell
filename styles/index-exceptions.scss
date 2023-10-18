@@ -13,7 +13,17 @@ $desktop-width: 1920px;
     &__navigation, &__signal, &__favorites {
       display: none;
     }
+
+    &__search {
+      margin-left: auto;
+      margin-right: 30px;
+    }
+
+    &__toolbar {
+      margin-left: 0;
+    }
   }
+
 }
 
 @media (min-width: $desktop-width) {
