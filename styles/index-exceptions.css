@@ -1,0 +1,16 @@
+@media (min-width: 375px) and (max-width: 1919px) {
+  [class*=content] {
+    padding: 0 15px;
+  }
+  .header {
+    height: 90px;
+  }
+  .header__navigation, .header__signal, .header__favorites {
+    display: none;
+  }
+}
+@media (min-width: 1920px) {
+  .header__burger-menu {
+    display: none;
+  }
+}/*# sourceMappingURL=index-exceptions.css.map */

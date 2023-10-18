@@ -1,0 +1,25 @@
+$mobile-width: 375px;
+$desktop-width: 1920px;
+
+@media (min-width: $mobile-width) and (max-width: ($desktop-width - 1)) {
+
+  [class*="content"] {
+    padding: 0 15px;
+  }
+
+  .header {
+    height: 90px;
+    
+    &__navigation, &__signal, &__favorites {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header {
+    &__burger-menu {
+      display: none;
+    }
+  }
+}
