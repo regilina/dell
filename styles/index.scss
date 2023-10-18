@@ -78,3 +78,22 @@ body * {
     margin-left: 50.77px;
   }
 }
+
+.last-news {
+  &__img-container {
+    position: relative;
+    max-width: 454px;
+  }
+
+  &__img-vector {
+    position: absolute;
+    left: 308px;
+    top: 243.79px;
+  }
+
+  &__img-vector-2 {
+    position: absolute;
+    
+    top: 219px;
+  }
+}

@@ -61,4 +61,18 @@ body * {
 }
 .header__search {
   margin-left: 50.77px;
+}
+
+.last-news__img-container {
+  position: relative;
+  max-width: 454px;
+}
+.last-news__img-vector {
+  position: absolute;
+  left: 308px;
+  top: 243.79px;
+}
+.last-news__img-vector-2 {
+  position: absolute;
+  top: 219px;
 }/*# sourceMappingURL=index.css.map */
