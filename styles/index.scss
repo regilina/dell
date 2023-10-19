@@ -85,14 +85,19 @@ body * {
 
 .last-news {
     background-color: rgba(250, 250, 250, 1);
-    display: flex;
-    flex-direction: row;
-    gap: 65px;
-    max-width: 976px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 65px;
+    grid-row-gap: 40px;
+    max-width: 1521px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 60px;
+    padding-right: 61px;
+    
 
-  &__img-container {
+  &__news {
     position: relative;
     max-width: 440px;
     min-height: 364px;
