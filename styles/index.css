@@ -8,6 +8,11 @@ a {
 
 body * {
   box-sizing: border-box;
+  color: #292D32;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 [class*=content] {
@@ -67,6 +72,9 @@ body * {
   position: relative;
   max-width: 454px;
 }
+.last-news__img {
+  border-radius: 45px 0 0 0;
+}
 .last-news__img-vector {
   position: absolute;
   left: 308px;
@@ -76,4 +84,28 @@ body * {
   position: absolute;
   left: 0;
   top: 219px;
+}
+.last-news__topic {
+  position: absolute;
+  left: 30px;
+  top: 243px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.last-news__text {
+  font-size: 14px;
+  line-height: 150%;
+  position: absolute;
+  left: 30px;
+  top: 318px;
+}
+.last-news__button {
+  position: absolute;
+  top: 234px;
+  left: 323px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
 }/*# sourceMappingURL=index.css.map */

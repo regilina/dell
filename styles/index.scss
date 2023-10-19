@@ -14,6 +14,11 @@ a {
 
 body * {
     box-sizing: border-box;
+    color: #292D32;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
   }
 
 [class*="content"] {
@@ -84,6 +89,10 @@ body * {
     max-width: 454px;
   }
 
+  &__img {
+    border-radius: 45px 0 0 0;
+  }
+
   &__img-vector {
     position: absolute;
     left: 308px;
@@ -95,4 +104,39 @@ body * {
     left: 0;
     top: 219px;
   }
+
+  &__topic {
+    position: absolute;
+    left: 30px;
+    top: 243px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%; 
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 150%;
+    position: absolute;
+    left: 30px;
+    top: 318px;
+  }
+
+  &__button {
+    position: absolute;
+    top: 234px;
+    left: 323px;
+    padding: 0;
+    
+
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    
+   
+
+    
+
+  }
+
 }
