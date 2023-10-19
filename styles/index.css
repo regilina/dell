@@ -108,4 +108,10 @@ body * {
   border-radius: 50%;
   background-color: white;
   border: none;
+}
+.last-news__button-arrow {
+  color: red;
+  position: absolute;
+  left: 29px;
+  top: 28px;
 }/*# sourceMappingURL=index.css.map */

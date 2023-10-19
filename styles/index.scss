@@ -127,16 +127,16 @@ body * {
     top: 234px;
     left: 323px;
     padding: 0;
-    
-
     border-radius: 50%;
     background-color: white;
     border: none;
-    
-   
+  }
 
-    
-
+  &__button-arrow {
+    color: red;
+    position: absolute;
+    left: 29px;
+    top: 28px;
   }
 
 }
