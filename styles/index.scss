@@ -1,4 +1,3 @@
-// Variables
 $primary-color: white;
 $secondary-color: #000;
 $container-max-width: 1400px;
@@ -7,24 +6,24 @@ $font-roboto: 'Roboto', sans-serif;
 $text-color: #292D32;
 $background-color: #F9F9F9;
 
-// Mixins
+
 @mixin flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-// Body
+
 body {
   background-color: $primary-color;
 }
 
-// Links
+
 a {
   color: $secondary-color;
 }
 
-// Global styles
+
 * {
   box-sizing: border-box;
   color: $text-color;
@@ -40,9 +39,9 @@ a {
   margin: 0 auto;
 }
 
-// Header
 .header {
   height: 123px;
+  @include flex-center;
 
   &__content {
     @include flex-center;
@@ -52,12 +51,22 @@ a {
     display: flex;
     gap: 50.77px;
     margin-left: 60px;
+    color: #292D32;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 15px;
+
+    line-height: normal;
+    text-transform: uppercase;
 
     &-list {
       display: flex;
       gap: 45px;
     }
 
+    a {
+      text-decoration: none;
+    }
   }
 
   &__toolbar {
@@ -93,7 +102,7 @@ a {
   }
 }
 
-// Last News
+
 .last-news {
   background-color: rgba(250, 250, 250, 1);
 

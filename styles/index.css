@@ -23,6 +23,9 @@ a {
 
 .header {
   height: 123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header__content {
   display: flex;
@@ -33,10 +36,19 @@ a {
   display: flex;
   gap: 50.77px;
   margin-left: 60px;
+  color: #292D32;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .header__navigation-list {
   display: flex;
   gap: 45px;
+}
+.header__navigation a {
+  text-decoration: none;
 }
 .header__toolbar {
   margin-left: auto;
