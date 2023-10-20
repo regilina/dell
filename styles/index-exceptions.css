@@ -15,9 +15,28 @@
   .header__toolbar {
     margin-left: 0;
   }
+  .last-news__head-p-desktop {
+    display: none;
+  }
+  .last-news__head-line {
+    display: flex;
+    flex-direction: column;
+  }
+  .last-news__all-news-button-container {
+    margin-bottom: 39px;
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
+  .last-news p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 1920px) {
   .header__burger-menu {
+    display: none;
+  }
+  .last-news__head-p-mobile {
     display: none;
   }
 }/*# sourceMappingURL=index-exceptions.css.map */

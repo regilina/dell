@@ -24,6 +24,30 @@ $desktop-width: 1920px;
     }
   }
 
+  .last-news {
+    &__head-p-desktop {
+      display: none;
+    }
+
+    &__head-line {
+      display: flex;
+    flex-direction: column;
+    }
+
+    &__all-news-button-container {
+      margin-bottom: 39px;
+      flex-direction: row-reverse;
+      justify-content: start;
+    }
+
+    p {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+
+  
+
 }
 
 @media (min-width: $desktop-width) {
@@ -31,5 +55,9 @@ $desktop-width: 1920px;
     &__burger-menu {
       display: none;
     }
+  }
+
+  .last-news__head-p-mobile {
+    display: none;
   }
 }
