@@ -24,6 +24,24 @@ $desktop-width: 1920px;
     }
   }
 
+  .our-advantages {
+    &__head-line {
+      flex-direction: column-reverse;
+    }
+
+    &__head {
+      font-size: 30px;
+    }
+
+    &__head-container {
+      & p {
+        font-size: 15px;
+      }
+
+      margin-left: 0;
+    }
+  }
+
   .last-news {
     &__head-p-desktop {
       display: none;

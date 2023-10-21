@@ -15,6 +15,18 @@
   .header__toolbar {
     margin-left: 0;
   }
+  .our-advantages__head-line {
+    flex-direction: column-reverse;
+  }
+  .our-advantages__head {
+    font-size: 30px;
+  }
+  .our-advantages__head-container {
+    margin-left: 0;
+  }
+  .our-advantages__head-container p {
+    font-size: 15px;
+  }
   .last-news__head-p-desktop {
     display: none;
   }
