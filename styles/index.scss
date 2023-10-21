@@ -110,10 +110,10 @@ a {
 .our-advantages {
   &__head-line {
     display: flex;
+  }
 
-    & img {
-      max-width: 874px;
-    }
+  &__img {
+    max-width: 874px;
   }
 
   &__head-container {
@@ -129,6 +129,7 @@ a {
       font-size: 18px;
       font-style: normal;
       line-height: 150%; 
+      margin-bottom: 41px;
     }
   }
 
@@ -138,6 +139,28 @@ a {
     line-height: 50px;
     margin-bottom: 37px;
   }
+}
+
+.button-container {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+
+  &__span {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  
+  &__button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background: #33A9FF;
+    @include flex-center;
+  }
+
 }
 
 .last-news {
@@ -264,25 +287,9 @@ a {
     line-height: normal;
   }
 
-  &__all-news-button-container {
-    display: flex;
-    gap: 17px;
-    align-items: center;
-  }
+  
 
-  &__all-news-span {
-    font-size: 16px;
-    line-height: 30px;
-  }
 
-  &__all-news-button {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: none;
-    background: #33A9FF;
-    @include flex-center;
-  }
 
   p {
     color: #838383;

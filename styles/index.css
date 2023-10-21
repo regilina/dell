@@ -87,7 +87,7 @@ a {
 .our-advantages__head-line {
   display: flex;
 }
-.our-advantages__head-line img {
+.our-advantages__img {
   max-width: 874px;
 }
 .our-advantages__head-container {
@@ -103,12 +103,33 @@ a {
   font-size: 18px;
   font-style: normal;
   line-height: 150%;
+  margin-bottom: 41px;
 }
 .our-advantages__head {
   font-size: 50px;
   font-style: normal;
   line-height: 50px;
   margin-bottom: 37px;
+}
+
+.button-container {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+.button-container__span {
+  font-size: 16px;
+  line-height: 30px;
+}
+.button-container__button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  background: #33A9FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .last-news {
@@ -215,25 +236,6 @@ a {
 .last-news__head {
   font-size: 50px;
   line-height: normal;
-}
-.last-news__all-news-button-container {
-  display: flex;
-  gap: 17px;
-  align-items: center;
-}
-.last-news__all-news-span {
-  font-size: 16px;
-  line-height: 30px;
-}
-.last-news__all-news-button {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  border: none;
-  background: #33A9FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .last-news p {
   color: #838383;

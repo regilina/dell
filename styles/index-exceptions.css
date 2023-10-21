@@ -18,7 +18,7 @@
   .our-advantages__head-line {
     flex-direction: column-reverse;
   }
-  .our-advantages__head-line img {
+  .our-advantages__img {
     margin-left: 62px;
     width: 100%;
   }
@@ -33,6 +33,16 @@
   .our-advantages__head-container p {
     font-size: 15px;
   }
+  .button-container {
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
+  .button-container-no-reverse {
+    flex-direction: row;
+  }
+  .button-container-all-news {
+    margin-bottom: 39px;
+  }
   .last-news__head-p-desktop {
     display: none;
   }
@@ -43,11 +53,6 @@
   .last-news__head {
     font-size: 30px;
     line-height: normal;
-  }
-  .last-news__all-news-button-container {
-    margin-bottom: 39px;
-    flex-direction: row-reverse;
-    justify-content: start;
   }
   .last-news p {
     margin-top: 20px;
