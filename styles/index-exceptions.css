@@ -44,6 +44,9 @@
   .button-container-all-news {
     margin-bottom: 39px;
   }
+  .last-news {
+    padding-top: 120px;
+  }
   .last-news__head-p-desktop {
     display: none;
   }
