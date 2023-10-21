@@ -19,6 +19,7 @@ a {
   max-width: 1521px;
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header {
@@ -85,6 +86,9 @@ a {
 
 .our-advantages__head-line {
   display: flex;
+}
+.our-advantages__head-line img {
+  max-width: 874px;
 }
 .our-advantages__head-container {
   display: flex;

@@ -37,6 +37,7 @@ a {
   max-width: $container-max-width;
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header {
@@ -109,6 +110,10 @@ a {
 .our-advantages {
   &__head-line {
     display: flex;
+
+    & img {
+      max-width: 874px;
+    }
   }
 
   &__head-container {

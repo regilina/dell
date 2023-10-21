@@ -18,6 +18,10 @@
   .our-advantages__head-line {
     flex-direction: column-reverse;
   }
+  .our-advantages__head-line img {
+    margin-left: 62px;
+    width: 100%;
+  }
   .our-advantages__head {
     font-size: 30px;
   }
