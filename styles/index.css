@@ -89,6 +89,7 @@ a {
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 65px;
   grid-row-gap: 40px;
+  overflow: hidden;
 }
 .last-news__news {
   position: relative;
@@ -96,7 +97,6 @@ a {
 }
 .last-news__img {
   border-radius: 45px 0 0 0;
-  max-width: 415px;
 }
 .last-news__img-vector {
   position: absolute;
