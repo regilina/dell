@@ -108,9 +108,10 @@
   background: #292D32;
   padding-left: 30px;
   padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
 }
 .our-advantages__card-head {
-  max-width: 205px;
   color: #FFF;
   font-family: Euclid Circular A;
   font-size: 22px;
@@ -127,6 +128,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  justify-self: end;
 }
 .our-advantages__icon-container {
   display: flex;

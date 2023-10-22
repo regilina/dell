@@ -132,9 +132,10 @@ $background-color: #F9F9F9;
     background: #292D32;
     padding-left: 30px;
     padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
 
      &-head {
-        max-width: 205px;
         color: #FFF;
         font-family: Euclid Circular A;
         font-size: 22px;
@@ -152,6 +153,7 @@ $background-color: #F9F9F9;
       font-style: normal;
       font-weight: 300;
       line-height: normal;
+      justify-self: end;
      }
   }
 
