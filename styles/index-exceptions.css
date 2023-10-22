@@ -38,7 +38,7 @@
     flex-direction: row-reverse;
     justify-content: start;
   }
-  .button-container-no-reverse {
+  .button-container-no-revers {
     flex-direction: row;
   }
   .button-container-all-news {

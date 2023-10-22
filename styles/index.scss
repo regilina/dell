@@ -1,5 +1,4 @@
-$primary-color: white;
-$secondary-color: #000;
+
 $container-max-width: 1521px;
 
 $font-roboto: 'Roboto', sans-serif;
@@ -11,16 +10,6 @@ $background-color: #F9F9F9;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-body {
-  background-color: $primary-color;
-}
-
-
-a {
-  color: $secondary-color;
 }
 
 
@@ -108,8 +97,44 @@ a {
 }
 
 .our-advantages {
+  padding-top: 152px;
+  background: rgba(242, 242, 242, 1);
+
+  &__best-quality {
+    font-family: Rubik Mono One;
+    font-size: 187px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92.687%;
+    text-transform: uppercase;
+    opacity: 0.7;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 897px;
+    margin-left: -179px;
+  }
+
+  &__cards {
+    padding-top: 129px;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+  }
+
+  &__card {
+    width: 330px;
+    height: 289px;
+    border-radius: 18px;
+    background: #292D32;
+    
+  }
+  
   &__head-line {
     display: flex;
+    margin-top: -411px;
+    position: absolute;
   }
 
   &__img {
@@ -138,6 +163,12 @@ a {
     font-style: normal;
     line-height: 50px;
     margin-bottom: 37px;
+  }
+
+  &__content {
+    overflow: visible;
+    position: relative;
+
   }
 }
 
