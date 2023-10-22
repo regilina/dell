@@ -20,7 +20,8 @@
   }
   .our-advantages__head-line {
     flex-direction: column-reverse;
-    margin-top: -121px;
+    margin-top: 0;
+    position: static;
   }
   .our-advantages__img {
     margin-left: 62px;
@@ -41,8 +42,8 @@
   .our-advantages__best-quality {
     display: none;
   }
-  .our-advantages__best-quality__img {
-    display: block;
+  .our-advantages__best-quality-img {
+    display: none;
   }
   .button-container {
     flex-direction: row-reverse;
@@ -82,6 +83,9 @@
     display: none;
   }
   .last-news__head-p-mobile {
+    display: none;
+  }
+  .our-advantages__best-quality-img {
     display: none;
   }
 }/*# sourceMappingURL=index-exceptions.css.map */
