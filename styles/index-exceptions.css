@@ -61,6 +61,9 @@
     height: -moz-fit-content;
     height: fit-content;
   }
+  .our-advantages__card-head {
+    max-width: 315px;
+  }
   .our-advantages__icon-card {
     margin-top: 15px;
   }
