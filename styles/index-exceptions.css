@@ -15,8 +15,12 @@
   .header__toolbar {
     margin-left: 0;
   }
+  .our-advantages {
+    padding-top: 101px;
+  }
   .our-advantages__head-line {
     flex-direction: column-reverse;
+    margin-top: -121px;
   }
   .our-advantages__img {
     margin-left: 62px;
@@ -33,6 +37,12 @@
   }
   .our-advantages__head-container p {
     font-size: 15px;
+  }
+  .our-advantages__best-quality {
+    display: none;
+  }
+  .our-advantages__best-quality__img {
+    display: block;
   }
   .button-container {
     flex-direction: row-reverse;

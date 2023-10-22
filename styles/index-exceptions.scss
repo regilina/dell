@@ -25,8 +25,13 @@ $desktop-width: 1920px;
   }
 
   .our-advantages {
+    padding-top: 101px;
+
     &__head-line {
       flex-direction: column-reverse;
+      margin-top: -121px;
+
+      
     }
 
     &__img {
@@ -47,6 +52,14 @@ $desktop-width: 1920px;
       }
 
       margin-left: 0;
+    }
+
+    &__best-quality {
+      display: none;
+
+      &__img {
+        display: block;
+      }
     }
   }
 
