@@ -106,6 +106,8 @@
   height: 289px;
   border-radius: 18px;
   background: #292D32;
+  padding-left: 30px;
+  padding-bottom: 35px;
 }
 .our-advantages__card-head {
   max-width: 205px;
@@ -115,7 +117,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 30px;
   margin-bottom: 13px;
 }
 .our-advantages__card-text {
@@ -126,14 +127,13 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin-left: 30px;
 }
 .our-advantages__icon-container {
   display: flex;
   justify-content: space-between;
 }
 .our-advantages__icon-card {
-  margin: 30px;
+  margin-bottom: 25px;
   margin-top: 30px;
   width: 70px;
   height: 70px;

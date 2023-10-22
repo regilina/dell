@@ -47,6 +47,18 @@
   }
   .our-advantages__cards {
     margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-advantages__card {
+    width: 345px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .our-advantages__icon-card {
+    margin-top: 15px;
   }
   .button-container {
     flex-direction: row-reverse;
