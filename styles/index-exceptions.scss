@@ -5,6 +5,7 @@ $desktop-width: 1920px;
 
   [class*="content"] {
     padding: 0 15px;
+    overflow: hidden;
   }
 
   .header {
@@ -98,7 +99,7 @@ $desktop-width: 1920px;
 
   .last-news {
     padding-top: 120px;
-    
+
     &__content {
       display: flex;
       flex-direction: column;
@@ -112,6 +113,7 @@ $desktop-width: 1920px;
     &__head-line {
       display: flex;
       flex-direction: column;
+      max-width: 344px;
     }
 
     &__head {

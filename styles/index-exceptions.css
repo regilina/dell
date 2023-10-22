@@ -1,6 +1,7 @@
 @media (min-width: 375px) and (max-width: 1919px) {
   [class*=content] {
     padding: 0 15px;
+    overflow: hidden;
   }
   .header {
     height: 90px;
@@ -87,6 +88,7 @@
   .last-news__head-line {
     display: flex;
     flex-direction: column;
+    max-width: 344px;
   }
   .last-news__head {
     font-size: 30px;
