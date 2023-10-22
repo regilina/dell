@@ -132,7 +132,22 @@ $background-color: #F9F9F9;
     background: #292D32;
     
   }
+
+  &__icon-container {
+    display: flex;
+    justify-content: space-between;
+  }
   
+  &__icon-card {
+    margin: 30px;
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background: #343A41;
+    @include flex-center;
+  }
+
   &__head-line {
     display: flex;
     margin-top: -411px;
