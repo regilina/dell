@@ -96,7 +96,7 @@
   margin-left: -179px;
 }
 .our-advantages__cards {
-  padding-top: 129px;
+  margin-top: 129px;
   display: flex;
   justify-content: center;
   gap: 27px;
@@ -106,6 +106,27 @@
   height: 289px;
   border-radius: 18px;
   background: #292D32;
+}
+.our-advantages__card-head {
+  max-width: 205px;
+  color: #FFF;
+  font-family: Euclid Circular A;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 30px;
+  margin-bottom: 13px;
+}
+.our-advantages__card-text {
+  max-width: 276px;
+  color: #B7B7B7;
+  font-family: Euclid Circular A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 30px;
 }
 .our-advantages__icon-container {
   display: flex;

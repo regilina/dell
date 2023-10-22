@@ -45,6 +45,9 @@
   .our-advantages__best-quality-img {
     display: none;
   }
+  .our-advantages__cards {
+    margin-top: 40px;
+  }
   .button-container {
     flex-direction: row-reverse;
     justify-content: start;
