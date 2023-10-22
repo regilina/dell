@@ -39,6 +39,7 @@
   }
   .our-advantages__head-container {
     margin-left: 0;
+    max-width: 336px;
   }
   .our-advantages__head-container p {
     font-size: 15px;
