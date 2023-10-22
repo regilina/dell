@@ -295,7 +295,6 @@
   line-height: normal;
 }
 .last-news__head-line {
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }

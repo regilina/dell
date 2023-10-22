@@ -56,7 +56,6 @@ $desktop-width: 1920px;
       }
 
       margin-left: 0;
-      max-width: 336px;
     }
 
     &__best-quality {
@@ -114,7 +113,7 @@ $desktop-width: 1920px;
     &__head-line {
       display: flex;
       flex-direction: column;
-      max-width: 344px;
+      
     }
 
     &__head {

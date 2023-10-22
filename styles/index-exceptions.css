@@ -39,7 +39,6 @@
   }
   .our-advantages__head-container {
     margin-left: 0;
-    max-width: 336px;
   }
   .our-advantages__head-container p {
     font-size: 15px;
@@ -89,7 +88,6 @@
   .last-news__head-line {
     display: flex;
     flex-direction: column;
-    max-width: 344px;
   }
   .last-news__head {
     font-size: 30px;
