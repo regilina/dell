@@ -26,17 +26,21 @@ $desktop-width: 1920px;
 
   .our-advantages {
     padding-top: 101px;
+    align-items: center;
 
     &__head-line {
       flex-direction: column-reverse;
       margin-top: 0;
       position: static;
+      align-items: center;
+
     }
 
     &__img {
       margin-left: 62px;
-      width: 100%;
+      max-width: 345px;
       margin-top: -55px;
+      margin-right: -61px;
     }
 
     &__head {
@@ -95,13 +99,19 @@ $desktop-width: 1920px;
   .last-news {
     padding-top: 120px;
     
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     &__head-p-desktop {
       display: none;
     }
 
     &__head-line {
       display: flex;
-    flex-direction: column;
+      flex-direction: column;
     }
 
     &__head {

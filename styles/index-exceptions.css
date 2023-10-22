@@ -17,16 +17,19 @@
   }
   .our-advantages {
     padding-top: 101px;
+    align-items: center;
   }
   .our-advantages__head-line {
     flex-direction: column-reverse;
     margin-top: 0;
     position: static;
+    align-items: center;
   }
   .our-advantages__img {
     margin-left: 62px;
-    width: 100%;
+    max-width: 345px;
     margin-top: -55px;
+    margin-right: -61px;
   }
   .our-advantages__head {
     font-size: 30px;
@@ -72,6 +75,11 @@
   }
   .last-news {
     padding-top: 120px;
+  }
+  .last-news__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .last-news__head-p-desktop {
     display: none;
