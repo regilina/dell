@@ -123,6 +123,9 @@
     top: 411px;
     left: 174px;
   }
+  .our-contacts-head {
+    font-size: 30px;
+  }
 }
 @media (min-width: 1920px) {
   .header__burger-menu {
