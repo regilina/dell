@@ -150,9 +150,13 @@ $desktop-width: 1920px;
       flex-direction: column;
       margin-top: 0;
       padding: 0;
+      height: fit-content;
+      max-width: 700px;
+      
     }
 
     &__iphone {
+
       &-desktop {
         display: none;
       }
@@ -161,7 +165,9 @@ $desktop-width: 1920px;
         display: block;
         position: absolute;
         top: 411px;
-        left: 174px;
+        right: 21.71px;
+      
+   
       }
     }
 

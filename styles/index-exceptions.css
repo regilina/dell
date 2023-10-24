@@ -113,6 +113,9 @@
     flex-direction: column;
     margin-top: 0;
     padding: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 700px;
   }
   .our-contacts__iphone-desktop {
     display: none;
@@ -121,7 +124,7 @@
     display: block;
     position: absolute;
     top: 411px;
-    left: 174px;
+    right: 21.71px;
   }
   .our-contacts-head {
     font-size: 30px;
