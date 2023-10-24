@@ -155,6 +155,14 @@ $desktop-width: 1920px;
       
     }
 
+    &__contacts {
+      padding: 101px 63px 59.84px 30px;
+    }
+
+    &__form {
+      padding: 60px 30px; 
+    }
+
     &__iphone {
 
       &-desktop {
@@ -173,6 +181,7 @@ $desktop-width: 1920px;
 
     &-head {
       font-size: 30px;
+      line-height: normal;
     }
   }
 }

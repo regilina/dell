@@ -117,6 +117,12 @@
     height: fit-content;
     max-width: 700px;
   }
+  .our-contacts__contacts {
+    padding: 101px 63px 59.84px 30px;
+  }
+  .our-contacts__form {
+    padding: 60px 30px;
+  }
   .our-contacts__iphone-desktop {
     display: none;
   }
@@ -128,6 +134,7 @@
   }
   .our-contacts-head {
     font-size: 30px;
+    line-height: normal;
   }
 }
 @media (min-width: 1920px) {
