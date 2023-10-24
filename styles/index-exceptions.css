@@ -123,6 +123,7 @@
   .our-contacts__contacts {
     padding: 101px 63px 59.84px 30px;
     height: 623px;
+    background: white;
   }
   .our-contacts__form {
     padding: 60px 30px;
@@ -139,6 +140,9 @@
   .our-contacts-head {
     font-size: 30px;
     line-height: normal;
+  }
+  .background {
+    display: none;
   }
 }
 @media (min-width: 1920px) {

@@ -146,7 +146,7 @@ $desktop-width: 1920px;
 
   .our-contacts {
     margin: 0;
-    
+
     &__content {
       flex-direction: column;
       margin-top: 0;
@@ -159,6 +159,7 @@ $desktop-width: 1920px;
     &__contacts {
       padding: 101px 63px 59.84px 30px;
       height: 623px;
+      background: white;
     }
 
     &__form {
@@ -185,6 +186,10 @@ $desktop-width: 1920px;
       font-size: 30px;
       line-height: normal;
     }
+  }
+
+  .background {
+    display: none;
   }
 }
 
