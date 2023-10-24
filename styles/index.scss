@@ -1,5 +1,6 @@
 
 $container-max-width: 1521px;
+$container-max-width-2: 1400px;
 
 $font-roboto: 'Roboto', sans-serif;
 $text-color: #292D32;
@@ -38,7 +39,7 @@ $background-color: #F9F9F9;
   }
 
   &__content {
-    max-width: 1400px;
+    max-width: $container-max-width-2;
   }
 
   &__navigation {
@@ -365,10 +366,6 @@ $background-color: #F9F9F9;
     line-height: normal;
   }
 
-  
-
-
-
   p {
     color: #838383;
     font-size: 18px;
@@ -376,6 +373,14 @@ $background-color: #F9F9F9;
     line-height: 150%;
     margin-top: 25px;
     margin-bottom: 69px;
+  }
+}
+
+.our-contacts {
+  &-content {
+    max-width: $container-max-width-2;
+    margin-top: -346px;
+    height: 200px;
   }
 }
 

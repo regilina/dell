@@ -141,6 +141,7 @@ $desktop-width: 1920px;
         display: none;
       }
     }
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -150,9 +151,9 @@ $desktop-width: 1920px;
     }
   }
 
-  .last-news__head-p-mobile {
-    display: none;
+  .last-news {
+    &__head-p-mobile {
+      display: none;
+    }
   }
-
-}
 }
