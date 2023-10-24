@@ -109,6 +109,9 @@
   .last-news__news-desktop {
     display: none;
   }
+  .our-contacts {
+    margin: 0;
+  }
   .our-contacts__content {
     flex-direction: column;
     margin-top: 0;

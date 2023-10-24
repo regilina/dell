@@ -378,6 +378,9 @@ $background-color: #F9F9F9;
 }
 
 .our-contacts {
+  margin-top: -346px;
+  margin-bottom: -596px;
+
   &-head {
     font-size: 50px;
     line-height: 50px;
@@ -397,7 +400,7 @@ $background-color: #F9F9F9;
       top: 151.32px;
       right: 613.68px + 28.34px;
     }
-    
+
     &-mobile {
       display: none;
     }
@@ -450,3 +453,8 @@ $background-color: #F9F9F9;
   color: white;
 }
 
+.background {
+  background: rgba(238, 238, 238, 1);
+  width: 1920px;
+  height: 676px;
+}

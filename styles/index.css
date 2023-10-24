@@ -318,6 +318,10 @@
   margin-bottom: 69px;
 }
 
+.our-contacts {
+  margin-top: -346px;
+  margin-bottom: -596px;
+}
 .our-contacts-head {
   font-size: 50px;
   line-height: 50px;
@@ -370,4 +374,10 @@
 
 .color-white {
   color: white;
+}
+
+.background {
+  background: rgb(238, 238, 238);
+  width: 1920px;
+  height: 676px;
 }/*# sourceMappingURL=index.css.map */
