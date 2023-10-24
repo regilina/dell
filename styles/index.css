@@ -328,6 +328,11 @@
   margin-top: 18px;
   margin-bottom: 48px;
 }
+.our-contacts__iphone {
+  position: absolute;
+  top: 151.32px;
+  right: 642.02px;
+}
 .our-contacts__content {
   max-width: 1400px;
   margin-top: -346px;
@@ -337,6 +342,7 @@
   height: 842px;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 .our-contacts__contacts {
   padding: 100px 165px 111.29px 100px;

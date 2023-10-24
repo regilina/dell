@@ -392,6 +392,14 @@ $background-color: #F9F9F9;
     margin-bottom: 48px;
   }
 
+  &__iphone {
+    
+    position: absolute;
+    top: 151.32px;
+    right: 613.68px + 28.34px;
+  
+  }
+
   &__content {
     max-width: $container-max-width-2;
     margin-top: -346px;
@@ -401,6 +409,7 @@ $background-color: #F9F9F9;
     height: 842px;
     display: flex;
     flex-direction: row;
+    position: relative;
   }
 
   &__contacts {
