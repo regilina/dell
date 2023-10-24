@@ -378,6 +378,12 @@ $background-color: #F9F9F9;
 }
 
 .our-contacts {
+  &-head {
+    font-size: 50px;
+    line-height: 50px;
+   
+  }
+
   &__content {
     max-width: $container-max-width-2;
     margin-top: -346px;
@@ -393,13 +399,7 @@ $background-color: #F9F9F9;
     padding: 100px 165px 111.29px 100px;
     background: #F9F9F9;
     width: 100%;
-
-    &-head {
-      font-size: 50px;
-      line-height: 50px;
-     
-    }
-
+  
     &-text {
       color: #838383;
       font-size: 16px;
@@ -412,6 +412,14 @@ $background-color: #F9F9F9;
   &__form {
     background: #292D32;
     width: 100%;
+    padding: 100px 129px 103px;
+    
+    & span {
+      color: white;
+    }
+    
+
+
   }
 
 

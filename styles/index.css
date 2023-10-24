@@ -318,6 +318,10 @@
   margin-bottom: 69px;
 }
 
+.our-contacts-head {
+  font-size: 50px;
+  line-height: 50px;
+}
 .our-contacts__content {
   max-width: 1400px;
   margin-top: -346px;
@@ -333,10 +337,6 @@
   background: #F9F9F9;
   width: 100%;
 }
-.our-contacts__contacts-head {
-  font-size: 50px;
-  line-height: 50px;
-}
 .our-contacts__contacts-text {
   color: #838383;
   font-size: 16px;
@@ -347,4 +347,8 @@
 .our-contacts__form {
   background: #292D32;
   width: 100%;
+  padding: 100px 129px 103px;
+}
+.our-contacts__form span {
+  color: white;
 }/*# sourceMappingURL=index.css.map */
