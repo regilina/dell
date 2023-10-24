@@ -112,6 +112,7 @@
   .our-contacts__content {
     flex-direction: column;
     margin-top: 0;
+    padding: 0;
   }
   .our-contacts__iphone-desktop {
     display: none;
