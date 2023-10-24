@@ -81,12 +81,6 @@ $desktop-width: 1920px;
       &-head {
         max-width: 315px;
       }
-
-      &-img-vector-mobile {
-        height: 64px;
-      }
-
-
     }
 
     &__icon-card {
@@ -97,14 +91,14 @@ $desktop-width: 1920px;
   .button-container {
     flex-direction: row-reverse;
     justify-content: start;
-  }
-  
-  .button-container-no-revers {
-    flex-direction: row;
-  }
 
-  .button-container-all-news {
-    margin-bottom: 39px;
+    &-no-revers {
+      flex-direction: row;
+    }
+
+    &-all-news {
+      margin-bottom: 39px;
+    }
   }
 
   .last-news {
@@ -136,11 +130,16 @@ $desktop-width: 1920px;
       margin-bottom: 30px;
     }
 
-    &__news-container {
-      display: flex;
-      flex-direction: column;
+    &__news {
+      &-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &-desktop {
+        display: none;
+      }
     }
-  }
 }
 
 @media (min-width: $desktop-width) {
@@ -154,13 +153,5 @@ $desktop-width: 1920px;
     display: none;
   }
 
-  .our-advantages {
-    &__best-quality-img {
-      display: none;
-    }
-
-    &__card-img-vector-mobile {
-      display: none;
-    }
-  }
+}
 }
