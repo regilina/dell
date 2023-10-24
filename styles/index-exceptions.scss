@@ -103,6 +103,7 @@ $desktop-width: 1920px;
 
   .last-news {
     padding-top: 120px;
+    padding-bottom: 120px;
 
     &__content {
       display: flex;
@@ -139,6 +140,27 @@ $desktop-width: 1920px;
 
       &-desktop {
         display: none;
+      }
+    }
+  }
+
+  .our-contacts {
+
+    &__content {
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    &__iphone {
+      &-desktop {
+        display: none;
+      }
+
+      &-mobile {
+        display: block;
+        position: absolute;
+        top: 411px;
+        left: 174px;
       }
     }
   }

@@ -79,6 +79,7 @@
   }
   .last-news {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
   .last-news__content {
     display: flex;
@@ -107,6 +108,19 @@
   }
   .last-news__news-desktop {
     display: none;
+  }
+  .our-contacts__content {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .our-contacts__iphone-desktop {
+    display: none;
+  }
+  .our-contacts__iphone-mobile {
+    display: block;
+    position: absolute;
+    top: 411px;
+    left: 174px;
   }
 }
 @media (min-width: 1920px) {

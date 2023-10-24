@@ -381,11 +381,9 @@ $background-color: #F9F9F9;
   &-head {
     font-size: 50px;
     line-height: 50px;
-   
   }
 
   &-text {
-    
     font-size: 16px;
     line-height: 150%;
     margin-top: 18px;
@@ -393,11 +391,16 @@ $background-color: #F9F9F9;
   }
 
   &__iphone {
+
+    &-desktop {
+      position: absolute;
+      top: 151.32px;
+      right: 613.68px + 28.34px;
+    }
     
-    position: absolute;
-    top: 151.32px;
-    right: 613.68px + 28.34px;
-  
+    &-mobile {
+      display: none;
+    }
   }
 
   &__content {
