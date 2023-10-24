@@ -99,6 +99,7 @@
   .last-news p {
     margin-top: 20px;
     margin-bottom: 30px;
+    font-size: 15px;
   }
   .last-news__news-container {
     display: flex;
