@@ -78,6 +78,7 @@
 
 .our-advantages {
   padding-top: 152px;
+  padding-bottom: 46px;
   background: rgb(242, 242, 242);
 }
 .our-advantages__best-quality {
@@ -129,6 +130,9 @@
   font-weight: 300;
   line-height: normal;
   justify-self: end;
+}
+.our-advantages__card-img-vector {
+  height: 90px;
 }
 .our-advantages__icon-container {
   display: flex;

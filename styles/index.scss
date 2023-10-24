@@ -98,6 +98,7 @@ $background-color: #F9F9F9;
 
 .our-advantages {
   padding-top: 152px;
+  padding-bottom: 46px;
   background: rgba(242, 242, 242, 1);
 
   &__best-quality {
@@ -154,6 +155,10 @@ $background-color: #F9F9F9;
       font-weight: 300;
       line-height: normal;
       justify-self: end;
+     }
+
+     &-img-vector {
+      height: 90px;
      }
   }
 

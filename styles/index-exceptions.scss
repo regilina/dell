@@ -27,6 +27,7 @@ $desktop-width: 1920px;
 
   .our-advantages {
     padding-top: 101px;
+    padding-bottom: 115px;
     align-items: center;
 
     &__head-line {
@@ -80,6 +81,12 @@ $desktop-width: 1920px;
       &-head {
         max-width: 315px;
       }
+
+      &-img-vector-mobile {
+        height: 64px;
+      }
+
+
     }
 
     &__icon-card {
@@ -149,6 +156,10 @@ $desktop-width: 1920px;
 
   .our-advantages {
     &__best-quality-img {
+      display: none;
+    }
+
+    &__card-img-vector-mobile {
       display: none;
     }
   }

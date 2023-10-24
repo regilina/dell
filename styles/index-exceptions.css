@@ -18,6 +18,7 @@
   }
   .our-advantages {
     padding-top: 101px;
+    padding-bottom: 115px;
     align-items: center;
   }
   .our-advantages__head-line {
@@ -62,6 +63,9 @@
   }
   .our-advantages__card-head {
     max-width: 315px;
+  }
+  .our-advantages__card-img-vector-mobile {
+    height: 64px;
   }
   .our-advantages__icon-card {
     margin-top: 15px;
@@ -112,6 +116,9 @@
     display: none;
   }
   .our-advantages__best-quality-img {
+    display: none;
+  }
+  .our-advantages__card-img-vector-mobile {
     display: none;
   }
 }/*# sourceMappingURL=index-exceptions.css.map */
