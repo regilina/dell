@@ -384,6 +384,14 @@ $background-color: #F9F9F9;
    
   }
 
+  &-text {
+    
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 18px;
+    margin-bottom: 48px;
+  }
+
   &__content {
     max-width: $container-max-width-2;
     margin-top: -346px;
@@ -399,22 +407,19 @@ $background-color: #F9F9F9;
     padding: 100px 165px 111.29px 100px;
     background: #F9F9F9;
     width: 100%;
-  
-    &-text {
-      color: #838383;
-      font-size: 16px;
-      line-height: 150%;
-      margin-top: 18px;
-      margin-bottom: 48px;
-    }
+    
   }
 
   &__form {
     background: #292D32;
     width: 100%;
     padding: 100px 129px 103px;
-    
+
     & span {
+      color: white;
+    }
+
+    &-text {
       color: white;
     }
     
@@ -425,4 +430,11 @@ $background-color: #F9F9F9;
 
 }
 
+.color-gray {
+  color: #838383;
+}
+
+.color-white {
+  color: white;
+}
 
