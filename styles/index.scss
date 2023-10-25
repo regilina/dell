@@ -453,6 +453,7 @@ $background-color: #F9F9F9;
     grid-template-rows: 1fr 1fr;
     row-gap: 40px;
     column-gap: 40px;
+    overflow: visible;
   
   }
 
@@ -480,5 +481,36 @@ $background-color: #F9F9F9;
     flex-shrink: 0;
     border-radius: 20px;
     background: var(--Unnamed-Color, #F2F2F2);
+    padding: 40px 0 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-category {
+      font-size: 25px;
+      line-height: 150%; 
+
+      &-container {
+      display: flex;
+      flex-direction: column;
+      }
+    }
+
+    &-text {
+      color: var(--Unnamed-Color, #838383);
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 133.687%;
+    }
+
+    &-img-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &-img {
+      margin-top: -50px;
+      margin-left: -46px;
+    }
   }
 }
