@@ -446,6 +446,16 @@ $background-color: #F9F9F9;
   padding-top: 154px;
   padding-bottom: 180px;
 
+  &__content {
+    max-width: $container-max-width-2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+  
+  }
+
   &__head-container {
     max-width: 388px;
 
@@ -462,7 +472,13 @@ $background-color: #F9F9F9;
   &__head {
     font-size: 50px;
     line-height: 50px;
-    
+  }
 
+  &__card {
+    width: 440px;
+    height: 371px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--Unnamed-Color, #F2F2F2);
   }
 }

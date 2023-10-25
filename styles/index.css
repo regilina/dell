@@ -386,6 +386,15 @@
   padding-top: 154px;
   padding-bottom: 180px;
 }
+.catalog__content {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 40px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
 .catalog__head-container {
   max-width: 388px;
 }
@@ -400,4 +409,11 @@
 .catalog__head {
   font-size: 50px;
   line-height: 50px;
+}
+.catalog__card {
+  width: 440px;
+  height: 371px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--Unnamed-Color, #F2F2F2);
 }/*# sourceMappingURL=index.css.map */
