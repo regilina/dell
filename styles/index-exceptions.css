@@ -165,6 +165,7 @@
   .catalog__card {
     width: 100%;
     padding: 15px 22px 20px 20px;
+    min-height: 290.898px;
   }
   .catalog__card-img-container {
     justify-content: space-between;
@@ -181,8 +182,15 @@
     width: 100%;
     height: auto;
   }
+  .catalog__card-img-3 {
+    margin-top: 13.51px;
+    margin-left: 19.99px;
+  }
   .catalog__card-2 {
     padding-right: 36px;
+  }
+  .catalog__card-3 {
+    padding-right: 40.77px;
   }
 }
 @media (min-width: 1920px) {
