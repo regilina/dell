@@ -190,6 +190,12 @@
     max-width: 100%;
     height: auto;
   }
+  .catalog__card-img-5 {
+    margin-top: 9.8px;
+    margin-left: 0px;
+    max-width: 100%;
+    height: auto;
+  }
   .catalog__card-2 {
     padding-right: 36px;
   }
@@ -198,6 +204,9 @@
   }
   .catalog__card-4 {
     padding-right: 59.59px;
+  }
+  .catalog__card-5 {
+    padding-right: 23.52px;
   }
 }
 @media (min-width: 1920px) {

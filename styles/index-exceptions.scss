@@ -225,13 +225,13 @@ $desktop-width: 1920px;
 
       &-img-container {
         justify-content: space-between;
+        
       }
 
       &-img-1 {
         margin-top: 0;
         margin-left: -35px;
         @include full-width-auto-height;
-
       }
 
       &-img-2 {
@@ -249,6 +249,12 @@ $desktop-width: 1920px;
         margin-left: 9.81px;
         @include full-width-auto-height;
       }
+
+      &-img-5 {
+        margin-top: 9.8px;
+        margin-left: 0px;
+        @include full-width-auto-height;
+      }
     }
 
     &__card-2 {
@@ -261,6 +267,10 @@ $desktop-width: 1920px;
 
     &__card-4 {
       padding-right: 59.59px;
+    }
+
+    &__card-5 {
+      padding-right: 23.52px;
     }
   }
 }
