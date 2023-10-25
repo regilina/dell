@@ -458,9 +458,15 @@
   margin-top: 19px;
   margin-left: 7px;
 }
+.catalog__card-img-5 {
+  margin-left: 19px;
+}
 .catalog__card-3 {
   padding-right: 52px;
 }
 .catalog__card-4 {
   padding-right: 76px;
+}
+.catalog__card-5 {
+  padding-right: 30px;
 }/*# sourceMappingURL=index.css.map */
