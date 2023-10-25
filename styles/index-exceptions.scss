@@ -1,6 +1,11 @@
 $mobile-width: 375px;
 $desktop-width: 1920px;
 
+@mixin full-width-auto-height {
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: ($desktop-width - 1)) {
 
   [class*="content"] {
@@ -214,15 +219,29 @@ $desktop-width: 1920px;
     }
 
     &__card {
-      max-width: 100%;
+      width: 100%;
       padding: 15px 22px 20px 20px;
+
+      &-img-container {
+        justify-content: space-between;
+      }
 
       &-img-1 {
         margin-top: 0;
         margin-left: -17.5px;
-        width: 100%;
-        height: auto;
+        @include full-width-auto-height;
       }
+
+      &-img-2 {
+        margin-top: -8.83px;
+  
+        margin-left: 0;
+        @include full-width-auto-height;
+      }
+    }
+
+    &__card-2 {
+      padding-right: 36px;
     }
   }
 }

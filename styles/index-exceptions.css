@@ -163,14 +163,26 @@
     margin-top: 20px;
   }
   .catalog__card {
-    max-width: 100%;
+    width: 100%;
     padding: 15px 22px 20px 20px;
+  }
+  .catalog__card-img-container {
+    justify-content: space-between;
   }
   .catalog__card-img-1 {
     margin-top: 0;
     margin-left: -17.5px;
     width: 100%;
     height: auto;
+  }
+  .catalog__card-img-2 {
+    margin-top: -8.83px;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .catalog__card-2 {
+    padding-right: 36px;
   }
 }
 @media (min-width: 1920px) {
