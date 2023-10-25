@@ -476,8 +476,8 @@ $background-color: #F9F9F9;
   }
 
   &__card {
-    width: 440px;
-    height: 371px;
+    max-width: 440px;
+    
     flex-shrink: 0;
     border-radius: 20px;
     background: var(--Unnamed-Color, #F2F2F2);
@@ -508,7 +508,7 @@ $background-color: #F9F9F9;
       flex-direction: row;
     }
 
-    &-img {
+    &-img-1 {
       margin-top: -50px;
       margin-left: -46px;
     }

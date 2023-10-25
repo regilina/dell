@@ -1,7 +1,7 @@
 $mobile-width: 375px;
 $desktop-width: 1920px;
 
-@media (min-width: $mobile-width) and (max-width: ($desktop-width - 1)) {
+@media (max-width: ($desktop-width - 1)) {
 
   [class*="content"] {
     padding: 0 15px;
@@ -198,6 +198,31 @@ $desktop-width: 1920px;
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+
+    &__head {
+      font-size: 30px;
+      line-height: normal;
+
+      &-container {
+        & p {
+          font-size: 15px;
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
+      } 
+    }
+
+    &__card {
+      max-width: 100%;
+      padding: 15px 22px 20px 20px;
+
+      &-img-1 {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }

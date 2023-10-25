@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 1919px) {
+@media (max-width: 1919px) {
   [class*=content] {
     padding: 0 15px;
     overflow: hidden;
@@ -152,6 +152,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .catalog__head {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .catalog__head-container p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .catalog__card {
+    max-width: 100%;
+    padding: 15px 22px 20px 20px;
+  }
+  .catalog__card-img-1 {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 1920px) {
