@@ -443,6 +443,9 @@ $background-color: #F9F9F9;
 }
 
 .catalog {
+  padding-top: 154px;
+  padding-bottom: 180px;
+
   &__head-container {
     max-width: 388px;
 
@@ -451,11 +454,15 @@ $background-color: #F9F9F9;
       font-size: 18px;
       font-weight: 300;
       line-height: 150%;
+      margin-bottom: 46px;
+      margin-top: 29px;
     }
   }
 
   &__head {
     font-size: 50px;
     line-height: 50px;
+    
+
   }
 }
