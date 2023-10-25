@@ -506,6 +506,10 @@ $background-color: #F9F9F9;
     &-img-container {
       display: flex;
       flex-direction: row;
+
+      &-3 {
+        flex-direction: column;
+      }
     }
 
     &-img-1 {
@@ -516,6 +520,15 @@ $background-color: #F9F9F9;
     &-img-2 {
       margin-top: -61px;
       margin-left: 47px;
+    }
+
+    &-img-3 {
+      margin-top: 3px;
+      margin-left: 11px;
+    }
+
+    &-3 {
+      padding-right: 52px;
     }
   }
 }
