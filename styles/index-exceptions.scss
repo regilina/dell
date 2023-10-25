@@ -2,7 +2,7 @@ $mobile-width: 375px;
 $desktop-width: 1920px;
 
 @mixin full-width-auto-height {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -243,6 +243,12 @@ $desktop-width: 1920px;
         margin-top: 13.51px;
         margin-left: 19.99px;
       }
+
+      &-img-4 {
+        margin-top: 26.26px;
+        margin-left: 9.81px;
+        @include full-width-auto-height;
+      }
     }
 
     &__card-2 {
@@ -251,6 +257,10 @@ $desktop-width: 1920px;
 
     &__card-3 {
       padding-right: 40.77px;
+    }
+
+    &__card-4 {
+      padding-right: 59.59px;
     }
   }
 }

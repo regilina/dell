@@ -442,9 +442,6 @@
 .catalog__card-img-container-3 {
   flex-direction: column;
 }
-.catalog__card-img-container-4 {
-  flex-direction: row;
-}
 .catalog__card-img-1 {
   margin-top: -50px;
   margin-left: -46px;

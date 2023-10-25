@@ -173,7 +173,7 @@
   .catalog__card-img-1 {
     margin-top: 0;
     margin-left: -35px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   .catalog__card-img-2 {
@@ -184,11 +184,20 @@
     margin-top: 13.51px;
     margin-left: 19.99px;
   }
+  .catalog__card-img-4 {
+    margin-top: 26.26px;
+    margin-left: 9.81px;
+    max-width: 100%;
+    height: auto;
+  }
   .catalog__card-2 {
     padding-right: 36px;
   }
   .catalog__card-3 {
     padding-right: 40.77px;
+  }
+  .catalog__card-4 {
+    padding-right: 59.59px;
   }
 }
 @media (min-width: 1920px) {
