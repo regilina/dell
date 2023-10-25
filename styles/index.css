@@ -442,6 +442,9 @@
 .catalog__card-img-container-3 {
   flex-direction: column;
 }
+.catalog__card-img-container-4 {
+  flex-direction: row;
+}
 .catalog__card-img-1 {
   margin-top: -50px;
   margin-left: -46px;
@@ -454,6 +457,13 @@
   margin-top: 3px;
   margin-left: 11px;
 }
+.catalog__card-img-4 {
+  margin-top: 19px;
+  margin-left: 7px;
+}
 .catalog__card-3 {
   padding-right: 52px;
+}
+.catalog__card-4 {
+  padding-right: 76px;
 }/*# sourceMappingURL=index.css.map */

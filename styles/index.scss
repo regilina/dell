@@ -510,6 +510,10 @@ $background-color: #F9F9F9;
       &-3 {
         flex-direction: column;
       }
+
+      &-4 {
+        flex-direction: row;
+      }
     }
 
     &-img-1 {
@@ -527,8 +531,18 @@ $background-color: #F9F9F9;
       margin-left: 11px;
     }
 
+    &-img-4 {
+      margin-top: 19px;
+      margin-left: 7px;
+    }
+
     &-3 {
       padding-right: 52px;
     }
+
+    &-4 {
+      padding-right: 76px;
+    }
+
   }
 }
