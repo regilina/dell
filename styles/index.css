@@ -380,4 +380,18 @@
   background: rgb(238, 238, 238);
   width: 1920px;
   height: 676px;
+}
+
+.catalog__head-container {
+  max-width: 388px;
+}
+.catalog__head-container p {
+  color: var(--Unnamed-Color, #838383);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+}
+.catalog__head {
+  font-size: 50px;
+  line-height: 50px;
 }/*# sourceMappingURL=index.css.map */
