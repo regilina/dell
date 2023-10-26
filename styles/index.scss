@@ -591,3 +591,8 @@ $background-color: #F9F9F9;
     }
   }
 }
+
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+}
