@@ -502,6 +502,10 @@
   padding-top: 60px;
   padding-bottom: 40px;
 }
+.footer__logo {
+  margin-top: 29px;
+  align-self: flex-start;
+}
 .footer__content {
   max-width: 1400px;
   display: flex;
@@ -544,6 +548,7 @@
   color: #838383;
   font-size: 16px;
   line-height: 133.687%;
+  margin-bottom: 11px;
 }
 .footer__contacts-item p {
   font-size: 18px;
