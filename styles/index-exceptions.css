@@ -129,6 +129,18 @@
     width: 18.7px;
     height: 18.7px;
   }
+  .our-contacts__contacts-icon-sms {
+    width: 17.7px;
+    height: 17.7px;
+  }
+  .our-contacts__contacts-icon-calling {
+    width: 17.7px;
+    height: 17.7px;
+  }
+  .our-contacts__contacts-item {
+    display: flex;
+    flex-direction: column;
+  }
   .our-contacts__contacts-item p {
     font-size: 18px;
     line-height: 150%;

@@ -169,9 +169,22 @@ $desktop-width: 1920px;
       &-icon {
         width: 18.7px;
         height: 18.7px;
+
+        &-sms {
+          width: 17.7px;
+          height: 17.7px;
+        }
+
+        &-calling {
+          width: 17.7px;
+          height: 17.7px;
+        }
       }
 
       &-item {
+        display: flex;
+        flex-direction: column;
+
         & p {
           font-size: 18px;
           line-height: 150%;
