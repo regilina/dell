@@ -507,14 +507,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .footer__navigation {
   display: flex;
   gap: 180px;
+  margin-bottom: 100px;
 }
 .footer__navigation-container {
   display: flex;
   gap: 190px;
+  width: 100%;
 }
 .footer__navigation-column {
   display: flex;
@@ -529,4 +533,19 @@
   font-size: 16px;
   font-weight: 300;
   line-height: normal;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer__contacts-item span {
+  color: #838383;
+  font-size: 16px;
+  line-height: 133.687%;
+}
+.footer__contacts-item p {
+  font-size: 18px;
+  line-height: 150%;
 }/*# sourceMappingURL=index.css.map */

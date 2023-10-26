@@ -594,15 +594,19 @@ $background-color: #F9F9F9;
   &__content {
     max-width: $container-max-width-2;
     @include flex-center;
+    display: flex;
+    flex-direction: column;
   }
 
   &__navigation {
     display: flex;
     gap: 180px;
-    
+    margin-bottom: 100px;
+
     &-container {
       display: flex;
       gap: 190px;
+      width: 100%;
     }
     
     &-column {
@@ -620,6 +624,26 @@ $background-color: #F9F9F9;
       font-size: 16px;
       font-weight: 300;
       line-height: normal;
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    &-item {
+      & span {
+        color: #838383;
+        font-size: 16px;
+        line-height: 133.687%; 
+      }
+
+      & p {
+        font-size: 18px;
+        line-height: 150%;
+      }
     }
   }
 }
