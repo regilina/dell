@@ -256,6 +256,10 @@ $desktop-width: 1920px;
         margin-left: 0px;
         @include full-width-auto-height;
       }
+
+      &-number {
+        font-size: 20px;
+      }
     }
 
     &__card-2 {
