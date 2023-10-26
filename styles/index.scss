@@ -514,7 +514,7 @@ $background-color: #F9F9F9;
 
     &-img-1 {
       margin-top: -50px;
-      margin-left: -46px;
+      margin-left: -53.43px;
     }
 
     &-img-2 {
@@ -548,5 +548,10 @@ $background-color: #F9F9F9;
       padding-right: 30px;
     }
 
+    &-number {
+      font-size: 25px;
+      font-weight: 100;
+      line-height: 150%;
+    }
   }
 }

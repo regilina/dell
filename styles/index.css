@@ -444,7 +444,7 @@
 }
 .catalog__card-img-1 {
   margin-top: -50px;
-  margin-left: -46px;
+  margin-left: -53.43px;
 }
 .catalog__card-img-2 {
   margin-top: -61px;
@@ -469,4 +469,9 @@
 }
 .catalog__card-5 {
   padding-right: 30px;
+}
+.catalog__card-number {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 150%;
 }/*# sourceMappingURL=index.css.map */
