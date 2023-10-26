@@ -29,15 +29,12 @@ $background-color: #F9F9F9;
 }
 
 .header {
-  height: 123px;
-  @include flex-center;
-
-  &__content {
-    @include flex-center;
-  }
+  padding-top: 27px;
+  padding-bottom: 26px;
 
   &__content {
     max-width: $container-max-width-2;
+    @include flex-center;
   }
 
   &__navigation {
@@ -48,7 +45,6 @@ $background-color: #F9F9F9;
     text-align: right;
     font-family: Roboto;
     font-size: 15px;
-
     line-height: normal;
     text-transform: uppercase;
 
@@ -591,3 +587,39 @@ $background-color: #F9F9F9;
   }
 }
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  &__content {
+    max-width: $container-max-width-2;
+    @include flex-center;
+  }
+
+  &__navigation {
+    display: flex;
+    gap: 180px;
+    
+    &-container {
+      display: flex;
+      gap: 190px;
+    }
+    
+    &-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &-head {
+      font-size: 25px;
+      line-height: normal;
+    }
+
+    &-item {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+}

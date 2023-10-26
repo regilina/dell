@@ -4,7 +4,8 @@
     overflow: hidden;
   }
   .header {
-    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .header__navigation, .header__signal, .header__favorites {
     display: none;
@@ -251,6 +252,12 @@
   }
   .social-icons {
     width: 65px;
+  }
+  .footer {
+    padding-top: 30.55px;
+    padding-bottom: 29.82px;
+    padding-left: 16px;
+    padding-right: 22px;
   }
 }
 @media (min-width: 1920px) {
