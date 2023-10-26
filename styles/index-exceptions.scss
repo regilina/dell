@@ -165,6 +165,43 @@ $desktop-width: 1920px;
       padding: 101px 63px 59.84px 30px;
       height: 623px;
       background: white;
+
+      &-icon {
+        width: 18.7px;
+        height: 18.7px;
+      }
+
+      &-item {
+        & p {
+          font-size: 18px;
+          line-height: 150%;
+        }
+  
+        & span {
+          font-size: 15px;
+          line-height: 133.687%;
+        }
+
+        &-container {
+          &-address {
+            margin-bottom: 30.52px;
+          }
+
+          &-email {
+            margin-bottom: 30px;
+          }
+
+          &-phone {
+            margin-bottom: 30.48px;
+          }
+        }
+      }
+    }
+
+    &-text {
+      font-size: 15px;
+      margin-top: 15px;
+      margin-bottom: 40px;
     }
 
     &__form {
@@ -277,10 +314,14 @@ $desktop-width: 1920px;
         font-size: 20px;
       }
     }
+  }
 
-    
+  .social-icons {
+    width: 65px;
   }
 }
+
+
 
 @media (min-width: $desktop-width) {
   .header {

@@ -125,6 +125,32 @@
     height: 623px;
     background: white;
   }
+  .our-contacts__contacts-icon {
+    width: 18.7px;
+    height: 18.7px;
+  }
+  .our-contacts__contacts-item p {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .our-contacts__contacts-item span {
+    font-size: 15px;
+    line-height: 133.687%;
+  }
+  .our-contacts__contacts-item-container-address {
+    margin-bottom: 30.52px;
+  }
+  .our-contacts__contacts-item-container-email {
+    margin-bottom: 30px;
+  }
+  .our-contacts__contacts-item-container-phone {
+    margin-bottom: 30.48px;
+  }
+  .our-contacts-text {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
   .our-contacts__form {
     padding: 60px 30px;
   }
@@ -211,6 +237,9 @@
   }
   .catalog__card-number {
     font-size: 20px;
+  }
+  .social-icons {
+    width: 65px;
   }
 }
 @media (min-width: 1920px) {
