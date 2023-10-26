@@ -371,6 +371,15 @@
   gap: 17px;
   max-width: 413px;
 }
+.our-contacts__contacts-item-container-address {
+  margin-bottom: 47px;
+}
+.our-contacts__contacts-item-container-email {
+  margin-bottom: 72px;
+}
+.our-contacts__contacts-item-container-phone {
+  margin-bottom: 60px;
+}
 .our-contacts__contacts-icon {
   align-self: start;
 }

@@ -429,6 +429,18 @@ $background-color: #F9F9F9;
         flex-direction: row;
         gap: 17px;
         max-width: 413px;
+
+        &-address {
+          margin-bottom: 47px;
+        }
+
+        &-email {
+          margin-bottom: 72px;
+        }
+
+        &-phone {
+          margin-bottom: 60px;
+        }
       }
     }
 
