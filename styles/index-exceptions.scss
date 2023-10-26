@@ -224,6 +224,22 @@ $desktop-width: 1920px;
       padding: 15px 22px 20px 20px;
       min-height: 290.898px;
 
+      &-2 {
+        padding-right: 36px;
+      }
+  
+      &-3 {
+        padding-right: 40.77px;
+      }
+  
+      &-4 {
+        padding-right: 59.59px;
+      }
+  
+      &-5 {
+        padding-right: 23.52px;
+      }
+
       &-img-container {
         justify-content: space-between;
         
@@ -262,21 +278,7 @@ $desktop-width: 1920px;
       }
     }
 
-    &__card-2 {
-      padding-right: 36px;
-    }
-
-    &__card-3 {
-      padding-right: 40.77px;
-    }
-
-    &__card-4 {
-      padding-right: 59.59px;
-    }
-
-    &__card-5 {
-      padding-right: 23.52px;
-    }
+    
   }
 }
 

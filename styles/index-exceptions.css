@@ -168,6 +168,18 @@
     padding: 15px 22px 20px 20px;
     min-height: 290.898px;
   }
+  .catalog__card-2 {
+    padding-right: 36px;
+  }
+  .catalog__card-3 {
+    padding-right: 40.77px;
+  }
+  .catalog__card-4 {
+    padding-right: 59.59px;
+  }
+  .catalog__card-5 {
+    padding-right: 23.52px;
+  }
   .catalog__card-img-container {
     justify-content: space-between;
   }
@@ -199,18 +211,6 @@
   }
   .catalog__card-number {
     font-size: 20px;
-  }
-  .catalog__card-2 {
-    padding-right: 36px;
-  }
-  .catalog__card-3 {
-    padding-right: 40.77px;
-  }
-  .catalog__card-4 {
-    padding-right: 59.59px;
-  }
-  .catalog__card-5 {
-    padding-right: 23.52px;
   }
 }
 @media (min-width: 1920px) {
