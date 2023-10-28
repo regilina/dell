@@ -378,16 +378,53 @@
 .our-contacts__contacts-icon {
   align-self: start;
 }
-.our-contacts__form {
+.our-contacts__form label {
+  color: #F2F2F2;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 133.687%;
+  font-style: normal;
+  position: absolute;
+  top: -12.75px;
+  left: 27px;
+  background-color: #292D32;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.our-contacts__form textarea {
+  width: 434px;
+  height: 145.25px;
+  border-radius: 20px;
+  background: #292D32;
+  border-width: 1.5px;
+  border-color: rgba(242, 242, 242, 0.5);
+  color: #FFF;
+}
+.our-contacts__form-container {
   background: #292D32;
   width: 100%;
   padding: 100px 129px 103px;
 }
-.our-contacts__form span {
+.our-contacts__form-container span {
   color: white;
 }
-.our-contacts__form-text {
+.our-contacts__form-container-text {
   color: white;
+}
+.our-contacts__form-input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 52.75px;
+}
+.our-contacts__form-input-container input {
+  width: 434px;
+  height: 59.25px;
+  border-radius: 20px;
+  background: #292D32;
+  border-width: 1.5px;
+  border-color: rgba(242, 242, 242, 0.5);
+  color: #FFF;
 }
 
 .color-gray {

@@ -218,7 +218,9 @@ $desktop-width: 1920px;
     }
 
     &__form {
-      padding: 60px 30px; 
+      &-container {
+        padding: 60px 30px; 
+      }
     }
 
     &__iphone {

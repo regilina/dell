@@ -361,10 +361,30 @@
           </div>
           <img class="our-contacts__iphone-desktop" src="img/iphone-13.png" alt="айфон 13 макс про">
           <img class="our-contacts__iphone-mobile" src="img/iphone-13-mobile.png" alt="айфон 13 макс про">
-          <form class="our-contacts__form">
+          <div class="our-contacts__form-container">
             <span class="our-contacts-head color-white">Оставьте заявку</span>
             <p class="our-contacts-text color-white">Оставьте свой номер, и мы перезвоним Вам.</p>
-          </form>
+            <form class="our-contacts__form">
+              <div class="our-contacts__form-input-container">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="our-contacts__form-input-container">
+                <label for="phone">Номер телефона</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="our-contacts__form-input-container">
+                <label for="comment">Комментарий</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+              </div>
+              <div class="button-container button-container-no-revers">
+                <button type="submit" class="button-container__button">
+                  <img src="img/button-arrow.svg">
+                </button>
+                <span class="button-container__span">Заказать</span>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
       <div class="background"></div>
