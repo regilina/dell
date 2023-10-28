@@ -91,6 +91,67 @@ $background-color: #F9F9F9;
   }
 }
 
+.hero {
+  background: #F2F2F2;
+  
+  &__content {
+    max-width: 1920px;
+    display: flex;
+  }
+
+  &__best-products {
+    background: #F2F2F2;
+    max-width: 1920px;
+    display: flex;
+    width: 100%;
+    padding-left: 260px;
+    padding-top: 74px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__dell {
+    margin-top: 23.4px;
+    width: 766.516px;
+    height: 201.6px;
+  }
+
+  &__head {
+    width: 446px;
+    font-size: 50px;
+    line-height: normal;
+    margin-bottom: 60px;
+
+    &-img-container {
+      display: flex;
+    }
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: - 46px;
+    }
+
+    &-span {
+      color: #838383;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 133.687%; 
+      margin-bottom: 15px;
+    }
+  }
+
+  &__favorable-offer {
+    background: #F9F9F9;
+    padding-bottom: 163px;
+
+    &-img {
+      width: 509px;
+      height: auto;
+    }
+  }
+}
+
 .our-advantages {
   padding-top: 152px;
   padding-bottom: 46px;
@@ -469,6 +530,12 @@ $background-color: #F9F9F9;
       border-width: 1.5px;
       border-color: rgba(242, 242, 242, 0.50);
       color: #FFF;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    & textarea:focus {
+      outline: none;
     }
 
     &-container {
@@ -501,14 +568,15 @@ $background-color: #F9F9F9;
         border-width: 1.5px;
         border-color: rgba(242, 242, 242, 0.50);
         color: #FFF;
-      
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      & input:focus {
+        outline: none;
       }
     }
-
-
   }
-
-  
 }
 
 .color-gray {
@@ -521,7 +589,9 @@ $background-color: #F9F9F9;
 
 .background {
   background: rgba(238, 238, 238, 1);
-  width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   height: 676px;
 }
 
