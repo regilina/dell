@@ -461,7 +461,8 @@ $background-color: #F9F9F9;
     }
 
     & textarea {
-      width: 434px;
+      max-width: 434px;
+      width: 100%;
       height: 145.25px;
       border-radius: 20px;
       background: #292D32;
@@ -492,7 +493,8 @@ $background-color: #F9F9F9;
   
 
       & input {
-        width: 434px;
+        max-width: 434px;
+        width: 100%;
         height: 59.25px;
         border-radius: 20px;
         background: #292D32;
