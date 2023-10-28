@@ -259,6 +259,51 @@
     padding-left: 16px;
     padding-right: 22px;
   }
+  .footer__content {
+    padding: 0;
+  }
+  .footer__logo {
+    margin-top: 0;
+    align-self: center;
+  }
+  .footer__navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 61px;
+  }
+  .footer__navigation-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 28.16px;
+  }
+  .footer__navigation-head {
+    font-size: 18px;
+  }
+  .footer__navigation-item {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 100%;
+  }
+  .footer__contacts {
+    max-width: 337px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+  }
+  .footer__contacts-item span {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .footer__contacts-item p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+  .footer__contacts-social-icons {
+    margin-top: 10px;
+  }
 }
 @media (min-width: 1920px) {
   .header__burger-menu {

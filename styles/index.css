@@ -516,6 +516,7 @@
 }
 .footer__navigation {
   display: flex;
+  flex-direction: row-reverse;
   gap: 180px;
   margin-bottom: 100px;
 }

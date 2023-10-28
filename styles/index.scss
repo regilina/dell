@@ -605,6 +605,7 @@ $background-color: #F9F9F9;
 
   &__navigation {
     display: flex;
+    flex-direction: row-reverse;
     gap: 180px;
     margin-bottom: 100px;
 
