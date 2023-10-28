@@ -303,6 +303,8 @@
   }
   .footer__contacts-social-icons {
     margin-top: 10px;
+    width: 90.182px;
+    height: 30.182px;
   }
 }
 @media (min-width: 1920px) {
