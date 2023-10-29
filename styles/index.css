@@ -73,7 +73,7 @@
 }
 
 .hero {
-  background: #F2F2F2;
+  background: linear-gradient(to right, #F2F2F2 50%, #F9F9F9 50%);
 }
 .hero__content {
   max-width: 1920px;
@@ -149,6 +149,21 @@
 .hero__favorable-offer-img {
   width: 509px;
   height: auto;
+}
+.hero__favorable-offer-arrow {
+  width: 104.5px;
+}
+.hero__favorable-offer-text {
+  font-size: 25px;
+  line-height: 130%;
+}
+.hero__favorable-offer-text-arrow-container {
+  margin-top: -159px;
+  margin-left: 40px;
+  max-width: 181px;
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
 }
 
 .our-advantages {

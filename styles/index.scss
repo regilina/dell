@@ -92,7 +92,7 @@ $background-color: #F9F9F9;
 }
 
 .hero {
-  background: #F2F2F2;
+  background: linear-gradient(to right, #F2F2F2 50%, #F9F9F9 50%);
 
   &__content {
     max-width: 1920px;
@@ -179,6 +179,26 @@ $background-color: #F9F9F9;
     &-img {
       width: 509px;
       height: auto;
+    }
+
+    &-arrow {
+      width: 104.5px;
+    }
+
+    &-text {
+      font-size: 25px;
+      line-height: 130%; 
+
+      &-arrow {
+        &-container {
+          margin-top: -159px;
+          margin-left: 40px;
+          max-width: 181px;
+          display: flex;
+          flex-direction: column;
+          gap: 82px;
+        }
+      }
     }
   }
 }
