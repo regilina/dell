@@ -79,6 +79,31 @@
   max-width: 1920px;
   display: flex;
 }
+.hero__scroll-head-container {
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.hero__scroll-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 16.5px;
+  margin-right: 108px;
+  width: 25px;
+}
+.hero__scroll-text {
+  transform: rotate(-90deg);
+  color: #838383;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  white-space: nowrap;
+}
+.hero__img {
+  margin-top: -179px;
+  margin-left: -43px;
+}
 .hero__best-products {
   background: #F2F2F2;
   max-width: 1920px;
@@ -107,6 +132,8 @@
   display: flex;
   flex-direction: column;
   margin-top: -46px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .hero__head-span {
   color: #838383;

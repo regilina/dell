@@ -93,10 +93,40 @@ $background-color: #F9F9F9;
 
 .hero {
   background: #F2F2F2;
-  
+
   &__content {
     max-width: 1920px;
     display: flex;
+  }
+
+  &__scroll {
+    &-head-container {
+      display: flex;
+      height: fit-content;
+    }
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: 16.5px;
+      margin-right: 108px;
+      width: 25px;
+    }
+
+    &-text {
+      transform: rotate(-90deg);
+      color: #838383;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: normal;
+      white-space: nowrap;
+    }
+  }
+
+  &__img {
+    margin-top: -179px;
+    margin-left: -43px;
   }
 
   &__best-products {
@@ -130,6 +160,7 @@ $background-color: #F9F9F9;
       display: flex;
       flex-direction: column;
       margin-top: - 46px;
+      height: fit-content;
     }
 
     &-span {
